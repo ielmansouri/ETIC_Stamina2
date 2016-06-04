@@ -1,0 +1,208 @@
+<!--
+Author: Ilyass El Mansouri
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Contact</title>
+		<meta charset="utf-8" />
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"> </script>
+		 <!-- animated-css -->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script src="js/wow.min.js"></script>
+		<script>
+		 new WOW().init();
+		</script>
+		<!-- animated-css -->
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!--webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+		<!--//webfonts-->
+	</head>
+	<body>
+		<!-- conatiner -->
+		<!-- top-header -->
+		<div class="top-header products-header">
+			<h1>Contactez<span>-Nous</span></h1>
+		</div>	
+		<!-- top-header -->
+			<div class="header">
+					<div class="sticky-navigation">
+					<div class="fixed-header">
+						<div class="container">
+							<div class="top-menu">
+								<span class="menu"> </span>
+					            <ul>
+					            	<li ><a href="index.html">Présentation</a></li>
+					                <li><a href="about.html">Vue Globale</a></li>
+					                <li><a href="services.html">Enjeux</a></li>
+					                <li><a href="products.html">Approfondissement</a></li>
+					                <li class="active"><a href="contact.html">Contact</a></li>
+					            </ul>
+				            </div>
+							<script>
+								$("span.menu").click(function(){
+									$(".top-menu ul").slideToggle(500, function(){
+									});
+								});
+							</script>
+				            <!-- search -->
+				            <div class="top-search">
+				            	<form>
+				            		<input type="text">
+				            		<input type="submit" value="Rechercher" />
+				            	</form>
+				            </div>
+				            <div class="clearfix"> </div>
+				            <!-- search -->
+				          </div>
+						  </div>
+			        </div>
+				</div>
+			<!-- header -->
+					<!-- script-for sticky-nav -->
+		<script>
+		$(document).ready(function() {
+			 var navoffeset=$(".header").offset().top;
+			 $(window).scroll(function(){
+				var scrollpos=$(window).scrollTop(); 
+				if(scrollpos >=navoffeset){
+					$(".header").addClass("fixed");
+				}else{
+					$(".header").removeClass("fixed");
+				}
+			 });
+			 
+		});
+		</script>
+
+
+			<!-- Contact -->
+			<div class="contact">
+				<div class="container">
+	
+					<!-- contact-grids -->		
+					<div class="contact-grids">
+						<div class="contact-map">
+						<div class="contact-head text-center">
+							<h2>Mentions légales</h2>
+						</div>	
+							<p align="justify">Ce site web a vu le jour grâce à la collaboration de 8 étudiants dans le cadre du projet ETIC de Télécom ParisTech (Enjeux des Technologies de l’Information et de la Communication). «Son but est de former les futurs ingénieurs à l’analyse des relations entre science, technique et société, afin qu’ils puissent tenir une place responsable dans la démocratie technique contemporaine marquée par l’émergence du principe de précaution et par une participation toujours plus large des usagers et du grand public aux questions scientifiques et techniques.» (extrait du site ci-dessous)</p>
+							<p>Pour en savoir plus, n’hésitez pas à visiter le site dédié au projet ETIC :</p>
+							<center>
+							<div class="jumbotron">
+							  <p><a class="btn btn-primary btn-lg" href="http://ethique-tic.fr/2016/" role="button" target="_blank">ETIC 2016</a></p>
+							</div>
+							</center>
+							
+						</div>
+						<!-- contact-form -->
+
+						<div class="contact-head text-center">
+							<h2>Répartition des rôles</h2>
+						</div>	
+						<ul>
+						<li><b>Webographe : </b>Alexis Blanchet</li>
+						<li><b>Journaliste : </b>Arnaud Dubessay</li>
+						<li><b>Juriste : </b>Pierre Ucla</li>
+						<li><b>Architecte : </b>Nathan Azoulay</li>
+						<li><b>Théoricien : </b>David El-Chenois Jia</li>
+						<li><b>Designer : </b>Aloïs Pourchot</li>
+						<li><b>Intégrateur Web : </b>El Mansouri Ilyass</li>
+
+						<div class="contact-head text-center">
+							<h2>Contactez-Nous</h2>
+						</div>	
+						<div class="contact-form">
+							<form>
+								<div class="contact-form-row">
+									<div>
+										<span>Nom :</span>
+										<input type="text" class="text"  value="Votre Nom" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Votre Nom';}">
+									</div>
+									<div>
+										<span>Email :</span>
+										<input type="text" class="text"  value="Votre Email " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Votre Email';}">
+									</div>
+									<div>
+										<span>Sujet :</span>
+										<input type="text" class="text"  value="Le Sujet" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Le Sujet';}">
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+								<div class="clearfix"> </div>
+								<div class="contact-form-row2">
+									<span>Message :</span>
+									<textarea> </textarea>
+								</div>
+								<input type="submit" value="Envoyer" />
+							</form>
+						</div>
+						<!-- contact-form -->
+					</div>
+					<!-- contact-grids -->
+					<div class="verticalgap" style="height:10px"></div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.67331616982!2d2.3442301156732483!3d48.82629427928441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671975e9d2e3d%3A0x17f35deee8ffbbf1!2zVMOpbMOpY29tIFBhcmlzVGVjaA!5e0!3m2!1sfr!2sfr!4v1464555622240" width="1150" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+
+			</div>
+			<!-- Contact -->
+			<!--soical-share -->
+			<div class="social-share text-center">
+				<div class="container">
+					<h3>Retrouvez-Nous</h3>
+					<ul>
+						<li><a class="facebook" href="#"><span> </span></a></li>
+						<li><a class="twitter" href="#"><span> </span></a></li>
+						<div class="clearfix"> </div>
+					</ul>
+				</div>
+			</div>
+			<!--soical-share -->
+			<!-- news-letter -->
+			<div class="news-letter">
+				<div class="container">
+					<div class="news-letter-left wow fadeInLeft" data-wow-delay="0.4s">
+						<h3><span> </span> Newsletter</h3>
+					</div>
+					<div class="news-letter-right wow fadeInRight" data-wow-delay="0.4s">
+						<form>
+							<input type="text" class="text" maxlength="20" value="Your Email here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Votre Email';}">
+							<input type="submit" value=" " />
+						</form>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- news-letter -->
+			<!-- footer -->
+			<div class="footer">
+				<div class="container">
+					<div class="footer-left wow fadeInLeft" data-wow-delay="0.4s">
+							<ul>
+				            	<li><a href="index.html">Présentation</a></li>
+				                <li><a href="about.html">Vue Gloable</a></li>
+				                <li><a href="services.html">Enjeux</a></li>
+				                <li><a href="products.html">Approfondissement</a></li>
+				                <li class="active"><a href="contact.html">Contactez-Nous</a></li>
+				            </ul>
+					</div>
+					<div class="footer-right wow fadeInRight" data-wow-delay="0.4s"	>
+						<p>ETIC<a href="http://ethique-tic.fr/2016/">2016</a></p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- footer -->
+		</div>
+		<!-- conatiner -->
+	</body>
+</html>
+

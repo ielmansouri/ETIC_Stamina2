@@ -1,0 +1,333 @@
+<!--
+Author: El Mansouri Ilyass
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Affaire Stamina | Approfondissement</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"> </script>
+		 <!-- animated-css -->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script src="js/wow.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+		<script>
+		 new WOW().init();
+		</script>
+		<!-- animated-css -->
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!--webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+		<!--//webfonts-->
+	</head>
+	<body>
+		<!-- conatiner -->
+		<!-- top-header -->
+		<div class="top-header products-header">
+			<h1>Affaire<span>Stamina</span></h1>
+		</div>	
+		<!-- top-header -->
+		<div class="header">
+					<div class="sticky-navigation">
+					<div class="fixed-header">
+						<div class="container">
+							<div class="top-menu">
+								<span class="menu"> </span>
+					            <ul>
+					            	<li ><a href="index.html">Présentation</a></li>
+					                <li><a href="about.html">Vue Globale</a></li>
+					                <li><a href="services.html">Enjeux</a></li>
+					                <li class="active"><a href="products.html">Approfondissement</a></li>
+					                <li><a href="contact.html">Contact</a></li>
+					            </ul>
+				            </div>
+							<script>
+								$("span.menu").click(function(){
+									$(".top-menu ul").slideToggle(500, function(){
+									});
+								});
+							</script>
+							<!-- search -->
+							<div class="top-search">
+				            	<form>
+				            		<input type="text">
+				            		<input type="submit" value="Rechercher" />
+				            	</form>
+				            </div>
+				            <!-- search -->
+
+				            <div class="clearfix"> </div>
+				          </div>
+						  </div>
+			        </div>
+				</div>
+			<!-- header -->
+					<!-- script-for sticky-nav -->
+		<script>
+		$(document).ready(function() {
+			 var navoffeset=$(".header").offset().top;
+			 $(window).scroll(function(){
+				var scrollpos=$(window).scrollTop(); 
+				if(scrollpos >=navoffeset){
+					$(".header").addClass("fixed");
+				}else{
+					$(".header").removeClass("fixed");
+				}
+			 });
+			 
+		});
+		</script>
+
+			<!-- Products -->
+			<div class="products">
+				<div class="container">
+				<!-- products-latest-news -->
+						<div class="about-latest-news">
+							<div class="about-head text-center wow bounceIn" data-wow-delay="0.4s">
+								<h3>Thérapie par cellules souches</h3>
+							</div>
+							<center>
+							<iframe width="860" height="615" src="https://www.youtube.com/embed/qMca6eGhrEs" frameborder="0" allowfullscreen></iframe>
+							<div class="jumbotron">
+							  <p><a class="btn btn-primary btn-lg" href="files/cellules.pdf" role="button" target="_blank">Télécharger notre rapport sur les cellules souches</a></p>
+							</div>
+							</center>
+						</div>
+
+							<div class="about-latest-news">
+							<div class="about-head text-center wow bounceIn" data-wow-delay="0.4s">
+								<h3>Législation</h3>
+							</div>
+							<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+							  <div class="panel panel-default">
+							    <div class="panel-heading" role="tab" id="headingOne">
+							      <h4 class="panel-title">
+							        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Décret 5 Décembre 2006
+							        </a>
+							      </h4>
+							    </div>
+							    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+							      <div class="panel-body">
+								  	<p>Le décret du 5 Décembre 2006 concerne les normes à respecter dans le cas des thérapies géniques ou thérapies cellulaires. Il explicite également les conditions requises pour avoir recours à des “soins compassionnels”. </p>
+								  	<p>Les points essentiels du décret sont les suivants : </p>
+								  	<ul>
+								  		<li>Les cellules utilisées doivent respecter les GMP (Good Manufacturing Practices).</li>
+											Il s’agit de normes établies par la commission européenne qui ont pour but de réduire tout risque de contamination du matériel cellulaire ou de confusion dues à des erreurs d’étiquetage. Elles réglementent également les conditions d’hygiène dans lesquelles doivent être effectuées toutes les manipulations.
+										<li>Les cellules utilisées doivent être traitées par l’un des 13 établissements autorisés par l’AIFA (Agence italienne de vigilance sur les médicaments).</li>
+										<li>Le traitement doit appartenir à la liste des traitements agréés par le ministère de la santé.</li>
+										<li>Concernant les soins dits “compassionnels”: l’utilisation de thérapies innovantes sur des patients n’ayant aucune alternative thérapeutique est possible sous réserve que des données scientifiques en faveur du traitement soient publiées dans une revue scientifique accréditée et qu’un comité d’éthique soit réuni et statue favorablement.</li>
+								  	</ul>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="panel panel-default">
+							    <div class="panel-heading" role="tab" id="headingTwo">
+							      <h4 class="panel-title">
+							        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										Règlement (CE) n° 1394/2007 du Parlement européen
+							        </a>
+							      </h4>
+							    </div>
+							    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+							      <div class="panel-body">
+							      	Ce réglement européen définit les usages relatifs à la préparation des médicaments utilisés dans des thérapies innovantes dans tous les états membres de l'union Européenne.
+							      </div>
+							    </div>
+							  </div>
+							  <div class="panel panel-default">
+							    <div class="panel-heading" role="tab" id="headingThree">
+							      <h4 class="panel-title">
+							        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							        	Décret Balduzzi (25 mars 2013)
+							        </a>
+							      </h4>
+							    </div>
+							    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+							      <div class="panel-body">
+							        <p>Le ministre de la santé Renato Balduzzi cherche à contrer la décision de l’AIFA de suspendre les activités de la fondation Stamina grâce au décret du 25 mars 2013.</p>
+									<p>Les points essentiels de ce décret sont les suivants : </p>
+									<ul>
+										<li>Les greffes de cellules souches mesenchymateuses sont autorisées dans les hôpitaux publiques même si elles ne respectent pas les normes GMP mais cela sous la responsabilité du médecin à l’initiative du traitement.</li>
+										<li>Les patients qui ont déjà commencé le traitement avec la fondation Stamina sont autorisés à le poursuivre sans avoir besoin d’effectuer un recours auprès du tribunal.</li>
+									</ul>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="panel panel-default">
+							    <div class="panel-heading" role="tab" id="headingFour">
+							      <h4 class="panel-title">
+							        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+										Affaire Durisotto v. Italy (application no. 62804/13)
+							        </a>
+							      </h4>
+							    </div>
+							    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+							      <div class="panel-body">
+							      	Cette affaire a pour origine le refus de la part de l’hôpital de Brescia d’administrer la thérapie proposée par la fondation Stamina à Mlle Durisotto, atteinte d’une dégénérescence cérébrale depuis l’adolescence. Le père de la patiente a saisi la cour européenne des droits de l’homme suite à la décision de la cour italienne de refuser l’accès à la thérapie à sa fille.
+							      </div>
+							    </div>
+							  </div>
+
+							</div>
+
+							<center>
+							<div class="jumbotron">
+							  <p><a class="btn btn-primary btn-lg" href="files/juriste.pdf" role="button" target="_blank">Télécharger le rapport du juriste</a></p>
+							</div>
+							</center>
+						</div>
+						
+
+					<div class="products-head text-center">
+							<h3>Sources</h3>
+					</div>
+					<div class="products-head text-center">
+							<span>En faveur de la méthode</span>
+					</div>
+					<div class="list-group">
+					  <a href="http://www.staminafoundation.org/" class="list-group-item disabled" target="_blank">
+					    <h4 class="list-group-item-heading">Site officiel de la fondation Stamina, à l'origine de ces cellules souches</h4>
+					    <p class="list-group-item-text">http://www.staminafoundation.org/</p>
+					  </a>
+
+					   <a href="https://www.facebook.com/Stamina-foundation-onlus-403438629692604/?ref=ts" class="list-group-item disabled" target="_blank">
+					    <h4 class="list-group-item-heading">Sa page Facebook officielle permettant l’accès à d’autres ressources (articles,vidéos,interview)</h4>
+					    <p class="list-group-item-text">https://www.facebook.com/Stamina-foundation-onlus/</p>
+					  </a>
+
+					  	<a href="https://www.facebook.com/groups/541123982630354/?ref=ts&fref=ts " class="list-group-item disabled" target="_blank">
+					    <h4 class="list-group-item-heading">Page Facebook soutenant l’utilisation de la méthode et rassemblant des italiens désireux d’agir contre le gouvernement (environ 300 personnes)</h4>
+					    <p class="list-group-item-text">https://www.facebook.com/groups/541123982630354/</p>
+					  </a>
+
+					   <a href="https://www.facebook.com/groups/favorevoliallecellulestaminali/?ref=ts&fref=ts" class="list-group-item disabled" target="_blank">
+					    <h4 class="list-group-item-heading">Groupe Facebook en faveur de l’emploie de la methode Stamina (400 membres) mais aussi plus generalement de l’utilisation des cellules souches</h4>
+					    <p class="list-group-item-text">https://www.facebook.com/groups/favorevoliallecellulestaminali/</p>
+					  </a>
+
+					</div>
+
+					<div class="products-head text-center">
+							<span>En désaccord avec cette méthode : la science réagit</span>
+					</div>
+
+					<div class="list-group">
+					  <a href="http://www.eurostemcell.org/story/unproven-stem-cell-therapy-goes-trial" class="list-group-item disabled" target="_blank">
+					    <h4 class="list-group-item-heading">Articles sur le site scientifique EuroStemCell specialisé dans leur utilisation</h4>
+					    <p class="list-group-item-text">http://www.eurostemcell.org/story/unproven-stem-cell-therapy-goes-trial</p>
+					  </a>
+
+					   <a href="http://www.eurostemcell.org/story/scientists-raise-alarm-italian-government-rules-unproven-stem-cell-therapy" class="list-group-item disabled" target="_blank">
+					    <h4 class="list-group-item-heading">Les paroles de nombreux scientifiques sur le sujet sont données ici et font prendre l’ampleur donné a cette affaire par la communauté scientifique.</h4>
+					    <p class="list-group-item-text">http://www.eurostemcell.org/story/scientists-raise-alarm-italian-government/</p>
+					  </a>
+
+					  	<a href="http://www.ascb.org/italian-senator-for-life-becomes-science-hero/" class="list-group-item disabled" target="_blank">
+					    <h4 class="list-group-item-heading">Article saluant l’implication d’une sénatrice dans l’enquête, pour approfondir son rôle</h4>
+					    <p class="list-group-item-text">http://www.ascb.org/italian-senator-for-life-becomes-science-hero/</p>
+					  </a>
+
+					   <a href="http://www.nature.com/news/when-right-beats-might-1.16973" class="list-group-item disabled" target="_blank">
+					    <h4 class="list-group-item-heading">Articles dans Nature s’opposant à l’utilisation de la méthode Stamina et attaquant l’Italie sur sa gestion de l’affaire</h4>
+					    <p class="list-group-item-text">http://www.nature.com/news/when-right-beats-might</p>
+					  </a>
+
+					   <a href="http://scienceblogs.com/insolence/2013/05/06/deregulating-stem-cell-quackery-in-italy/" class="list-group-item disabled" target="_blank">
+					    <h4 class="list-group-item-heading">Une charge pour le moins violente contre l’utilisation des cellules souches</h4>
+					    <p class="list-group-item-text">http://scienceblogs.com/insolence/2013/05/06/</p>
+					  </a>
+
+					   <a href="http://www.ansa.it/english/news/general_news/2015/03/18/vannoni-cops-plea-of-one-year-ten-months_87d363aa-a099-466b-a4ae-1f3301d8ecaf.html" class="list-group-item disabled" target="_blank">
+					    <h4 class="list-group-item-heading">Article de la presse italienne, la date est importante, il s’agit du procès, plus personne ne soutient Vanonni</h4>
+					    <p class="list-group-item-text">http://www.ansa.it/english/news/general_news/2015/03/18/vannoni-cops-plea-of-one-year.html</p>
+					  </a>
+
+					   <a href="http://researchtheheadlines.org/2015/04/10/quackery-and-the-media-the-stamina-case/" class="list-group-item disabled" target="_blank">
+					    <h4 class="list-group-item-heading">Comparaison de l'affaire Stamina avec l’affaire Luigi Di Bella dans les années 90</h4>
+					    <p class="list-group-item-text">http://researchtheheadlines.org/2015/04/10/quackery-and-the-media-the-stamina-case/</p>
+					  </a>
+
+					   <a href="http://www.scienceonthenet.eu/content/article/pietro-greco/stamina-not-isolated-incident/june-2014" class="list-group-item disabled" target="_blank">
+					   <h4 class="list-group-item-heading">Les scientifiques italiens critiquent leur système en s’appuyant sur les parutions de la revue Nature et ouvrent le débat sur la relation science-croyance en Italie</h4>
+					    <p class="list-group-item-text">http://www.scienceonthenet.eu/content/article/pietro-greco/stamina-not-isolated-incident/june-2014</p>
+					  </a>
+
+					</div>
+
+					<div class="products-head text-center">
+							<span>Sources informatives : ne prennent pas partie mais informent des dévelopements d’un point de vue exterieur</span>
+					</div>
+					
+					<div class="list-group">
+					  <a href="http://www.snf.ch/fr/pointrecherche/newsroom/Pages/news-150305-horizons-des-chercheurs-contre-la-pseudo-science.aspx " class="list-group-item disabled" target="_blank">
+					    <h4 class="list-group-item-heading">Blogs de discussion permettant l’ouverture d’un débat au sujet de la méthode</h4>
+					    <p class="list-group-item-text">http://www.snf.ch/fr/pointrecherche/newsroom/Pages/news.aspx</p>
+					  </a>
+
+					   <a href="http://emboj.embopress.org/content/32/11/1489" class="list-group-item disabled" target="_blank">
+					    <h4 class="list-group-item-heading">Article des plus intéréssants et fournissant un éclairage important sur l’affaire</h4>
+					    <p class="list-group-item-text">http://emboj.embopress.org/content/32/11/1489</p>
+					  </a>
+
+					  	<a href="http://www.lastampa.it/2014/08/24/italia/cronache/brescia-i-nas-sequestrano-le-cellule-del-metodo-stamina-la-fondazione-infusioni-bloccate-561nZFQSKktkTOCP2LdVVN/pagina.html" class="list-group-item disabled" target="_blank">
+					    <h4 class="list-group-item-heading">L’article souligne la duplicité de l’état qui stoppe un traitement qu’il a autorisé</h4>
+					    <p class="list-group-item-text">http://www.lastampa.it/2014/08/24/italia/cronache.html</p>
+					  </a>
+
+					   <a href="https://www.nlm.nih.gov/medlineplus/stemcells.html" class="list-group-item disabled" target="_blank">
+					    <h4 class="list-group-item-heading">Ce qu’il faut savoir sur les cellules souches, document provenant de la bibliothèque de medecine (US)</h4>
+					    <p class="list-group-item-text">https://www.nlm.nih.gov/medlineplus/stemcells.html</p>
+					  </a>
+
+					   <a href="https://vimeo.com/96040861 " class="list-group-item disabled" target="_blank">
+					    <h4 class="list-group-item-heading">Vidéo informative visant à montrer les différents développement de l’affaire Stamina</h4>
+					    <p class="list-group-item-text">https://vimeo.com/96040861 </p>
+					  </a>
+					</div>	
+
+							<center>
+							<div class="jumbotron">
+							  <p><a class="btn btn-primary btn-lg" href="files/theoricien.pdf" role="button" target="_blank">Télécharger la liste exhaustive de nos sources</a></p>
+							</div>
+							</center>
+					<!-- products-latest-news -->
+
+				</div>
+			</div>
+			<!-- Services -->
+			<!--soical-share -->
+			<!--soical-share -->
+			<!-- footer -->
+			<div class="footer">
+				<div class="container">
+					<div class="footer-left wow fadeInLeft" data-wow-delay="0.4s">
+							<ul>
+				            	<li><a href="index.html">Présentation</a></li>
+				                <li><a href="about.html">Vue globale</a></li>
+				                <li><a href="services.html">Enjeux</a></li>
+				                <li><a href="products.html">Approfondissement</a></li>
+				                <li><a href="contact.html">Contactez-nous</a></li>
+				            </ul>
+					</div>
+					<div class="footer-right wow fadeInRight" data-wow-delay="0.4s"	>
+						<p>ETIC<a href="http://ethique-tic.fr/2016/">2016</a></p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- footer -->
+		</div>
+		<!-- conatiner -->
+	</body>
+</html>
+
